@@ -1,0 +1,9 @@
+[submodule "semio_msgs_ros"]
+	path = semio_msgs_ros
+	url = git@github.com:semio-robotics/semio_msgs_ros.git
+[submodule "semio_rosbridge"]
+	path = semio_rosbridge
+	url = git@github.com:semio-robotics/semio_rosbridge.git
+[submodule "semio_speech_ros"]
+	path = semio_speech_ros
+	url = git@github.com:semio-robotics/semio_speech_ros.git
