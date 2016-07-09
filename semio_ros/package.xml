@@ -1,0 +1,21 @@
+<package>
+  <name>semio_ros</name>
+  <version>0.1.0</version>
+
+  <description>Metapackage for ROS wrappers for Semio API</description>
+
+  <maintainer email="support@semio.xyz">Semio Corp</maintainer>
+  <license>GPLv3</license>
+  <url type="website">https://semio.xyz</url>
+  <author email="support@semio.xyz">Semio Corp</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>semio_msgs_ros</run_depend>
+  <run_depend>semio_speech_ros</run_depend>
+  <run_depend>semio_rosbridge</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
