@@ -28,7 +28,7 @@ else
 
 	echo "> Building and installing metapackage for dev dependencies..."
 	mkdir -p build/deb/dev-deps/DEBIAN &&\
-  # generate control file from template
+	# generate control file from template
 	cat src/project/deb/dev-deps/DEBIAN/control.in |\
 		sed -e "s/\${PKGNAME}/${PKGNAME}/g" |\
 		sed -e "s/\${VERSION}/${VERSION}/g" |\
@@ -67,7 +67,7 @@ else
 	echo "> Building main package" &&\
 	# invoke catkin to build the package; ignore environment setup files; install to ros root; set build to release
 	catkin_make -DCATKIN_BUILD_BINARY_PACKAGE="1" -DCMAKE_INSTALL_PREFIX=/opt/ros/${ROS_DISTRO} -DCMAKE_BUILD_TYPE=Release &&\
-	# copy the description file for checkinstall (it looks for ./description-pack)
+	# copy the description file for checkinstall (it looks for ./description-pak)
 	cp src/project/deb/description build/description-pak &&\
 	cd build &&\
 	# build the deb
