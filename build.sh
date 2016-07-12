@@ -23,8 +23,8 @@ else
 	ROSDEP_RUN="$(rosdep resolve $(catkin list --deps | awk '$1=="build_depend:"{m=""} $1=="run_depend:"{m="p"} m=="p"&&$1=="-"{print $2}' | sort -u) 2>/dev/null | grep -v "^#")"
 
 	# format deps for debian control file
-	BUILD_REQUIRES="$(if [ "${BUILD_REQUIRES}" != "" ]; then echo "${BUILD_REQUIRES}, "; fi; echo "$(for arg in ${ROSDEP_BUILD}; do echo -n "$arg, "; done)" | sed -e 's/, $//g')"
-	RUN_REQUIRES="$(if [ "${RUN_REQUIRES}" != "" ]; then echo "${RUN_REQUIRES}, "; fi; echo "$(for arg in ${ROSDEP_RUN}; do echo -n "$arg, "; done)" | sed -e 's/, $//g')"
+	BUILD_REQUIRES="$(if [ "${BUILD_REQUIRES}" != "" ]; then echo -n "${BUILD_REQUIRES}, "; fi; echo -n "$(for arg in ${ROSDEP_BUILD}; do echo -n "$arg, "; done)" | sed -e 's/, $//g')"
+	RUN_REQUIRES="$(if [ "${RUN_REQUIRES}" != "" ]; then echo -n "${RUN_REQUIRES}, "; fi; echo -n "$(for arg in ${ROSDEP_RUN}; do echo -n "$arg, "; done)" | sed -e 's/, $//g')"
 
 	echo "> Building and installing metapackage for dev dependencies..."
 	mkdir -p build/deb/dev-deps/DEBIAN &&\
