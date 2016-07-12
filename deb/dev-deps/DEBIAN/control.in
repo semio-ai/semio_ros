@@ -1,0 +1,8 @@
+Package: ${PKGNAME}-dev-deps
+Version: ${VERSION}-${RELEASE}
+Section: main
+Priority: extra
+Architecture: all
+Depends: ${BUILD_REQUIRES}
+Maintainer: Semio Corp <support@semio.xyz>
+Description: Metapackage for installing deps to build ${PKGNAME}
