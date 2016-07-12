@@ -12,8 +12,8 @@ else
 	VERSION="$(cat src/project/deb/version)"
 	RELEASE="$(cat src/project/deb/release)"
 
-	BUILD_REQUIRES=""
-	RUN_REQUIRES="ros-${ROS_DISTRO}-rosbridge-server"
+	BUILD_REQUIRES="libsemio, libsemio-dev-deps"
+	RUN_REQUIRES="libsemio, ros-${ROS_DISTRO}-rosbridge-server"
 
 	LICENSE="GPLv3"
 	PKGGROUP="libs"
