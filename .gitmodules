@@ -7,3 +7,6 @@
 [submodule "semio_speech_ros"]
 	path = semio_speech_ros
 	url = git@github.com:semio-robotics/semio_speech_ros.git
+[submodule "semio_attention_ros"]
+	path = semio_attention_ros
+	url = git@github.com:semio-robotics/semio_attention_ros.git
