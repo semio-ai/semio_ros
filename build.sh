@@ -11,6 +11,8 @@ if [ "$1" = "" ] || [ "$1" = "build" ]; then
 	docker rm ${CONTAINER_ID}
 elif [ "$1" = "base" ]; then
 	docker build -t semio/${PKGNAME}:base docker/base/
+elif [ "$1" = "base-clean" ]; then
+	docker build --no-cache -t semio/${PKGNAME}:base docker/base/
 elif [ "$1" = "deps" ]; then
 	docker build -t semio/${PKGNAME}:deps -f docker/deps/Dockerfile .
 elif [ "$1" = "clean" ]; then
