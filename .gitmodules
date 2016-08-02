@@ -10,3 +10,6 @@
 [submodule "semio_attention_ros"]
 	path = semio_attention_ros
 	url = git@github.com:semio-robotics/semio_attention_ros.git
+[submodule "semio_humanoid_ros"]
+	path = semio_humanoid_ros
+	url = git@github.com:semio-robotics/semio_humanoid_ros.git
