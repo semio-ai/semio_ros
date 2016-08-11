@@ -13,3 +13,6 @@
 [submodule "semio_humanoid_ros"]
 	path = semio_humanoid_ros
 	url = git@github.com:semio-robotics/semio_humanoid_ros.git
+[submodule "semio_deixis_ros"]
+	path = semio_deixis_ros
+	url = git@github.com:semio-robotics/semio_deixis_ros.git
