@@ -26,7 +26,7 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 	VERSION="$(cat deb/version)"
 	RELEASE="$(cat deb/release)"
 
-	BUILD_REQUIRES="libsemio, libsemio-dev-deps, checkinstall"
+	BUILD_REQUIRES="libsemio, libsemio-dev-deps"
 	RUN_REQUIRES="libsemio, ros-${ROS_DISTRO}-rosbridge-server"
 
 	LICENSE="GPLv3"
