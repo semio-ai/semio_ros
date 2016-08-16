@@ -86,7 +86,7 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 
 		echo "> Building main package" &&\
 		# invoke catkin to build the package; ignore environment setup files; install to ros root; set build to release
-		catkin_make -DCATKIN_BUILD_BINARY_PACKAGE="1" -DCMAKE_INSTALL_PREFIX=/opt/ros/${ROS_DISTRO} -DCMAKE_BUILD_TYPE=Release &&\
+		catkin_make -DCATKIN_BUILD_BINARY_PACKAGE="1" -DCMAKE_INSTALL_PREFIX=/opt/ros/${ROS_DISTRO} -DCMAKE_BUILD_TYPE=Release -j$(cat /proc/cpuinfo | grep -c processor) &&\
 		# copy the description file for checkinstall (it looks for ./description-pak)
 		cp src/project/deb/description build/description-pak &&\
 		cd build &&\
