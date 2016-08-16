@@ -99,4 +99,8 @@ elif [ "$1" = "docker-clean" ]; then
 	dpkg -i /root/workspace/build/${PKGNAME}_*.deb &&\
 	apt-get remove -y ${PKGNAME}-dev-deps && apt-get autoremove -y && apt-get autoclean && rm -rf /var/lib/apt/lists/ &&\
 	cd /root/workspace && rm -rf project build
+elif [ "$1" = "rviz-intel" ]; then
+	docker build -t semio/ros:rviz-intel docker/rviz-intel/
+elif [ "$1" = "rviz-nvidia" ]; then
+	docker build -t semio/ros:rviz-nvidia docker/rviz-nvidia/
 fi
