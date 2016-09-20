@@ -55,33 +55,7 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 		# build metapackage for dependencies
 		dpkg --build build/deb/dev-deps build &&\
 		# install metapackage
-		sudo dpkg -i build/${PKGNAME}-dev-deps*.deb 2>/dev/null ||\
-		# if installation fails, use apt-cache unmet to figure out whether the system knows about the rest of the deps we need
-		{
-			DEPS_TO_CHECK="${PKGNAME}-dev-deps"
-			# any deps to check are potential unmet dependencies; apt-cache unmet will tell us what is missing
-			# we keep checking for deps; when we run out, then everything else can be satisfied through apt
-			while [ "${DEPS_TO_CHECK}" != "" ]; do
-				echo ">> Need additional dependencies; asking apt to resolve them..."
-				for dep in $(apt-cache unmet ${DEPS_TO_CHECK} | awk '$1=="Depends:"{print $2}'); do
-					# for any unmet deps, mark them to be searched for locally
-					echo ">>> Need ${dep}" && NEW_DEPS_TO_CHECK="${NEW_DEPS_TO_CHECK} ${dep}" && LOCAL_REQUIRES="${LOCAL_REQUIRES} src/project/deps/${dep}_*.deb"
-				done
-
-				# try to install the local deps
-				if [ "${LOCAL_REQUIRES}" != "" ]; then
-					echo ">> Installing unmet dependencies from local files: ${LOCAL_REQUIRES}"
-					sudo dpkg -i ${LOCAL_REQUIRES} 2>/dev/null
-					LOCAL_REQUIRES=""
-				fi
-
-				DEPS_TO_CHECK="${NEW_DEPS_TO_CHECK}"
-				NEW_DEPS_TO_CHECK=""
-			done
-
-			echo ">> All remaining dependencies satisfiable through apt; installing..."
-			sudo apt-get install -yf
-		}
+		dpkg -i build/${PKGNAME}-dev-deps*.deb 2>/dev/null || apt-get install -yf
 	elif [ "$1" = "docker-build" ]; then
 		cd /root/workspace
 
