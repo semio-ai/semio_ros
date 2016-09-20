@@ -15,7 +15,11 @@ elif [ "$1" = "base-clean" ]; then
 elif [ "$1" = "deps" ]; then
 	docker build -t semio/${PKGNAME}:deps -f docker/deps/Dockerfile .
 elif [ "$1" = "clean" ]; then
-	docker build -t semio/${PKGNAME}:clean -f docker/clean/ --squash=true
+	docker run -ti --name ${PKGNAME}-clean -v `pwd`:/root/workspace/src/project:ro semio/ros:sid_local-all_clean /bin/sh /root/workspace/src/project/build.sh docker-clean
+	SUCCESS=$?
+	CONTAINER_ID=$(docker ps -qaf status=exited -f name=${PKGNAME}-clean)
+	[ ${SUCCESS} ] && docker commit ${CONTAINER_ID} semio/${PKGNAME}:clean
+	docker rm ${CONTAINER_ID}
 elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 
 	PKGSRC="$(git ls-remote --get-url)"
@@ -100,9 +104,9 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 elif [ "$1" = "extras" ]; then
 	docker build -t semio/${PKGNAME}:extras docker/extras/
 elif [ "$1" = "docker-clean" ]; then
-	dpkg -i /root/workspace/build/${PKGNAME}_*.deb &&\
-	apt-get remove -y ${PKGNAME}-dev-deps && apt-get autoremove -y && apt-get autoclean && rm -rf /var/lib/apt/lists/ &&\
-	cd /root/workspace && rm -rf project build
+	apt-get update &&\
+	apt-get install -y ${PKGNAME} libsemio-util libfreenect2-util libnite2-util libopenface-util python-roslaunch rosbash rospack-tools &&\
+	apt-get autoremove -y && apt-get autoclean && rm -rf /etc/apt/sources.list* && rm -rf /var/lib/apt/lists/
 elif [ "$1" = "rviz-intel" ]; then
 	docker build -t semio/ros:rviz-intel docker/rviz-intel/
 elif [ "$1" = "rviz-nvidia" ]; then
