@@ -1,4 +1,4 @@
-FROM semio/ros-jade-semio-ros:base
+FROM semio/libsemio-ros:base
 
 WORKDIR /root/workspace/src/project
 
