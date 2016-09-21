@@ -16,3 +16,6 @@
 [submodule "semio_deixis_ros"]
 	path = semio_deixis_ros
 	url = git@github.com:semio-robotics/semio_deixis_ros.git
+[submodule "semio_visualization_ros"]
+	path = semio_visualization_ros
+	url = git@github.com:semio-robotics/semio_visualization_ros.git
