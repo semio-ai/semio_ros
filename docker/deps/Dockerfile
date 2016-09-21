@@ -1,8 +1,10 @@
-FROM semio/ros-jade-semio-ros:base
+FROM semio/libsemio-ros:base
 
 WORKDIR /root/workspace/src/project
 
-COPY . .
+COPY build.sh .
+COPY deb deb
+COPY .git .git
 
 RUN ./build.sh docker-deps
 

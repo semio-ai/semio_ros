@@ -1,8 +1,5 @@
-FROM ros:jade-ros-base
+FROM semio/pkgbuilder:libsemio-ros
 
 RUN apt-get update
-RUN apt-get install -y checkinstall
-RUN apt-get install -y libgl1-mesa-dri-lts-xenial
-RUN apt-get install -y python-catkin-tools
 
 CMD /bin/bash
