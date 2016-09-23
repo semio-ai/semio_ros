@@ -66,12 +66,12 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 
 		echo "> Building main package" &&\
 		# invoke catkin to build the package; ignore environment setup files; install to ros root; set build to release
-		catkin_make -DCATKIN_BUILD_BINARY_PACKAGE="1" -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -j$(cat /proc/cpuinfo | grep -c processor) &&\
+		catkin_make -DCATKIN_BUILD_BINARY_PACKAGE="1" -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug -j$(cat /proc/cpuinfo | grep -c processor) &&\
 		# copy the description file for checkinstall (it looks for ./description-pak)
 		cp src/project/deb/description build/description-pak &&\
 		cd build &&\
 		# build the deb
-		checkinstall --pkgname=${PKGNAME} --pkgsource="${PKGSRC}" --pkglicense=${LICENSE} --pkggroup=${PKGGROUP} --maintainer='Semio Corp \<support@semio.xyz\>' --provides=${PROVIDES} --requires="${RUN_REQUIRES}" --pkgversion=${VERSION} --pkgrelease=${RELEASE} --backup=no -y --exclude=/root --install=no --nodoc &&\
+		checkinstall --pkgname=${PKGNAME} --pkgsource="${PKGSRC}" --pkglicense=${LICENSE} --pkggroup=${PKGGROUP} --maintainer='Semio Corp \<support@semio.xyz\>' --provides=${PROVIDES} --requires="${RUN_REQUIRES}" --pkgversion=${VERSION} --pkgrelease=${RELEASE} --backup=no -y --exclude=/root --install=no --nodoc --strip=no --stripso=no &&\
 		# copy the deb to the output folder
 		cp *.deb /root/workspace/debs-out
 	fi
