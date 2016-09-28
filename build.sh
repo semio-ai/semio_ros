@@ -28,7 +28,7 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 	VERSION="$(cat deb/version)"
 	RELEASE="$(cat deb/release)"
 
-	BUILD_REQUIRES="libsemio-dev, libroscpp-dev, libtf2-dev, ros-visualization-msgs, libvisualization-msgs-dev, catkin, ros-message-generation"
+	BUILD_REQUIRES="libsemio-dev, libroscpp-dev, libtf2-ros-dev, ros-visualization-msgs, libvisualization-msgs-dev, catkin, ros-message-generation"
 	RUN_REQUIRES="libsemio, libroscpp1d, libtf2-ros0d, ros-visualization-msgs"
 
 	LICENSE="GPLv3"
