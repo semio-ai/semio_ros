@@ -79,7 +79,7 @@ elif [ "$1" = "extras" ]; then
 	docker build -t semio/${PKGNAME}:extras docker/extras/
 elif [ "$1" = "docker-clean" ]; then
 	apt-get update &&\
-	apt-get install -y ${PKGNAME} libsemio-util libfreenect2-util libnite2-util libopenface-util python-roslaunch rosbash rospack-tools &&\
+	apt-get install -y ${PKGNAME} libsemio-util libfreenect2-util libnite2-util libopenface-util python-roslaunch rosbash rospack-tools ros-visualization-msgs python-rostopic python-geometry-msgs gdb wget less vim &&\
 	apt-get autoremove -y && apt-get autoclean && rm -rf /etc/apt/sources.list* && rm -rf /var/lib/apt/lists/
 elif [ "$1" = "rviz-intel" ]; then
 	docker build -t semio/ros:rviz-intel docker/rviz-intel/
