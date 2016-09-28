@@ -28,8 +28,8 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 	VERSION="$(cat deb/version)"
 	RELEASE="$(cat deb/release)"
 
-	BUILD_REQUIRES="libsemio-dev, libroscpp-dev, libtf2-dev, ros-visualization-msgs, libvisualization-msgs-dev, catkin, ros-message-generation"
-	RUN_REQUIRES="libsemio, libroscpp1d, libtf2-ros0d, ros-visualization-msgs"
+	BUILD_REQUIRES="libsemio-dev (>= 1.15.0), libroscpp-dev, libtf2-ros-dev, libvisualization-msgs-dev, catkin, ros-message-generation"
+	RUN_REQUIRES="'libsemio (>= 1.15.0)', libroscpp1d, libtf2-ros0d"
 
 	LICENSE="GPLv3"
 	PKGGROUP="libs"
@@ -79,7 +79,7 @@ elif [ "$1" = "extras" ]; then
 	docker build -t semio/${PKGNAME}:extras docker/extras/
 elif [ "$1" = "docker-clean" ]; then
 	apt-get update &&\
-	apt-get install -y ${PKGNAME} libsemio-util libfreenect2-util libnite2-util libopenface-util python-roslaunch rosbash rospack-tools &&\
+	apt-get install -y ${PKGNAME} libsemio-util libfreenect2-util libnite2-util libopenface-util python-roslaunch rosbash rospack-tools ros-visualization-msgs python-rostopic python-geometry-msgs tf2-tools gdb wget less vim &&\
 	apt-get autoremove -y && apt-get autoclean && rm -rf /etc/apt/sources.list* && rm -rf /var/lib/apt/lists/
 elif [ "$1" = "rviz-intel" ]; then
 	docker build -t semio/ros:rviz-intel docker/rviz-intel/
