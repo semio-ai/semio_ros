@@ -19,3 +19,6 @@
 [submodule "semio_visualization_ros"]
 	path = semio_visualization_ros
 	url = git@github.com:semio-robotics/semio_visualization_ros.git
+[submodule "semio_launch"]
+	path = semio_launch
+	url = git@github.com:semio-robotics/semio_launch.git
