@@ -28,8 +28,8 @@ elif [ "$1" = "docker-deps" ] || [ "$1" = "docker-build" ]; then
 	VERSION="$(cat deb/version)"
 	RELEASE="$(cat deb/release)"
 
-	BUILD_REQUIRES="libsemio-dev (>= 1.21.0), libroscpp-dev, libtf2-ros-dev, libvisualization-msgs-dev, catkin, ros-message-generation"
-	RUN_REQUIRES="'libsemio (>= 1.21.0)', libroscpp1d, libtf2-ros0d"
+	BUILD_REQUIRES="libsemio-dev (>= 1.22.0), libroscpp-dev, libtf2-ros-dev, libvisualization-msgs-dev, catkin, ros-message-generation"
+	RUN_REQUIRES="'libsemio (>= 1.22.0)', libroscpp1d, libtf2-ros0d"
 
 	LICENSE="GPLv3"
 	PKGGROUP="libs"
