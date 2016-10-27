@@ -1,24 +1,24 @@
 [submodule "semio_msgs_ros"]
 	path = semio_msgs_ros
-	url = git@github.com:semio-robotics/semio_msgs_ros.git
+	url = git@github.com:semio-ai/semio_msgs_ros.git
 [submodule "semio_rosbridge"]
 	path = semio_rosbridge
-	url = git@github.com:semio-robotics/semio_rosbridge.git
+	url = git@github.com:semio-ai/semio_rosbridge.git
 [submodule "semio_speech_ros"]
 	path = semio_speech_ros
-	url = git@github.com:semio-robotics/semio_speech_ros.git
+	url = git@github.com:semio-ai/semio_speech_ros.git
 [submodule "semio_attention_ros"]
 	path = semio_attention_ros
-	url = git@github.com:semio-robotics/semio_attention_ros.git
+	url = git@github.com:semio-ai/semio_attention_ros.git
 [submodule "semio_humanoid_ros"]
 	path = semio_humanoid_ros
-	url = git@github.com:semio-robotics/semio_humanoid_ros.git
+	url = git@github.com:semio-ai/semio_humanoid_ros.git
 [submodule "semio_deixis_ros"]
 	path = semio_deixis_ros
-	url = git@github.com:semio-robotics/semio_deixis_ros.git
+	url = git@github.com:semio-ai/semio_deixis_ros.git
 [submodule "semio_visualization_ros"]
 	path = semio_visualization_ros
-	url = git@github.com:semio-robotics/semio_visualization_ros.git
+	url = git@github.com:semio-ai/semio_visualization_ros.git
 [submodule "semio_launch"]
 	path = semio_launch
-	url = git@github.com:semio-robotics/semio_launch.git
+	url = git@github.com:semio-ai/semio_launch.git
