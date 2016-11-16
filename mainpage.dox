@@ -1,0 +1,68 @@
+/**
+
+@mainpage semio_ros
+
+@htmlonly
+<div style="background-color:#032a36;color:#FFFFFF;">
+<div class="image">
+<table style="border:0px;padding:0px;margin:0px;">
+<tr><td style="padding-right:7px;padding-left:7px;padding-top:2px;padding-bottom:11px;text-align:left;"><img src="semio_logo.png" width="163px" alt="semio_logo.png"/></td><td style="padding-right:7px;padding-left:7px;"><strong>Software for social robots</strong></td></tr>
+</table>
+</div>
+</div>
+@endhtmlonly
+
+@section main-overview Overview
+
+---
+@subsection public-packages Public Packages
+- @subpage semio_attention_ros - Visual attention recognition
+- @subpage semio_deixis_ros - Pointing behavior recognition
+- @subpage semio_humanoid_ros - semio::Humanoid <-> ROS conversion and utilities
+- @subpage semio_msgs_ros - ROS message definitions
+
+@subsection proprietary-packages Proprietary Packages
+- @subpage semio_visualization_ros - ROS visualization utilities
+
+@subsection ros-message-api ROS Message API
+- @ref semio_msgs_ros
+
+@subsection utility-nodes Utility Nodes
+- @ref attention-semio_attention_node - Simple ROS wrapper around semio::AttentionRecognizer
+- @ref deixis-semio_deixis_node - Simple ROS wrapper around semio::DeicticRecognizer
+- @ref humanoid-semio_humanoid_server_node - Serve humanoids using source/sink model; configurable at runtime via semio::ros::HumanoidSourceAdapter / semio::ros::HumanoidSinkAdapter
+- @ref visualization-semio_visualization_server_node - Visualize humanoids and recognition results via visualization_msgs/MarkerArray.msg
+
+@subsection utility-classes Utility Classes
+- @ref semio::ros::HumanoidSourceAdapter - Select and configure input source for humanoid data
+- @ref semio::ros::HumanoidSinkAdapter - Select and configure output sink for humanoid data
+
+@subsection ros-conversion-classes ROS Conversion Classes
+- @ref semio::ros::HumanoidSourceROS - Extension of semio::HumanoidSource for ROS
+- @ref semio::ros::HumanoidSinkROS - Extension of semio::HumanoidSink for ROS
+
+@section main-examples Examples
+
+---
+@subsection example-nodes Example Nodes
+- @ref attention-example_attention_targets_node - Create and publish targets for attention recognition; source humanoids via semio::ros::HumanoidSourceAdapter
+- @ref deixis-example_deictic_targets_node - Create and publish targets for deixis recognition; source humanoids via semio::ros::HumanoidSourceAdapter
+
+@section installation Installation
+
+---
+@subsection installation-from-binary Binaries
+- Docker
+  - `docker pull docker.semio.xyz:5000/libsemio-ros`
+- .deb for Debian Sid:
+  - Available in latest release: https://github.com/semio-ai/semio_ros/releases/latest
+
+@subsection installation-from-source Source Code
+- GitHub repo: https://github.com/semio-ai/semio_ros
+  - `git clone https://github.com/semio-ai/semio_ros.git && cd semio_ros && git submodule init && git submodule update`
+- Zip/tarball
+  - Available in latest release: https://github.com/semio-ai/semio_ros/releases/latest
+
+@tableofcontents
+
+**/
