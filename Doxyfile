@@ -2082,8 +2082,7 @@ SKIP_FUNCTION_MACROS   = YES
 # the path). If a tag file is not located in the directory in which doxygen is
 # run, you must also specify the path to the tagfile here.
 
-#TAGFILES               = semio_attention_ros/semio_attention_ros.tag=../../semio_attention_ros/doxygen_generated/html \
-#                         semio_humanoid_ros/semio_humanoid_ros.tag=../../semio_humanoid_ros/doxygen_generated/html
+TAGFILES               = ../libsemio/libsemio.tag=https://semio-ai.github.io/libsemio
 
 # When a file name is specified after GENERATE_TAGFILE, doxygen will create a
 # tag file that is based on the input files it reads. See section "Linking to
