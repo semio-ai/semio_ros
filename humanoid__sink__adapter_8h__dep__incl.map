@@ -1,0 +1,6 @@
+<map id="semio_humanoid_ros/include/semio/ros/humanoid_sink_adapter.h" name="semio_humanoid_ros/include/semio/ros/humanoid_sink_adapter.h">
+<area shape="rect" id="node2" href="$example__attention__targets__node_8cpp.html" title="semio_attention_ros\l/nodes/example_attention\l_targets_node.cpp" alt="" coords="5,109,176,165"/>
+<area shape="rect" id="node3" href="$example__deictic__targets__node_8cpp.html" title="semio_deixis_ros/nodes\l/example_deictic_targets\l_node.cpp" alt="" coords="201,109,367,165"/>
+<area shape="rect" id="node4" href="$semio__humanoid__server__node_8cpp.html" title="semio_humanoid_ros\l/nodes/semio_humanoid\l_server_node.cpp" alt="" coords="392,109,555,165"/>
+<area shape="rect" id="node5" href="$humanoid__sink__adapter_8cpp.html" title="semio_humanoid_ros\l/src/humanoid_sink_adapter.cpp" alt="" coords="579,117,789,158"/>
+</map>

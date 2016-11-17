@@ -1,0 +1,8 @@
+<map id="semio_humanoid_ros/include/semio/ros/humanoid_source_adapter.h" name="semio_humanoid_ros/include/semio/ros/humanoid_source_adapter.h">
+<area shape="rect" id="node2" href="$example__attention__targets__node_8cpp.html" title="semio_attention_ros\l/nodes/example_attention\l_targets_node.cpp" alt="" coords="5,109,176,165"/>
+<area shape="rect" id="node3" href="$semio__attention__node_8cpp.html" title="semio_attention_ros\l/nodes/semio_attention\l_node.cpp" alt="" coords="200,109,357,165"/>
+<area shape="rect" id="node4" href="$example__deictic__targets__node_8cpp.html" title="semio_deixis_ros/nodes\l/example_deictic_targets\l_node.cpp" alt="" coords="382,109,549,165"/>
+<area shape="rect" id="node5" href="$semio__deixis__node_8cpp.html" title="semio_deixis_ros/nodes\l/semio_deixis_node.cpp" alt="" coords="573,117,736,158"/>
+<area shape="rect" id="node6" href="$semio__humanoid__server__node_8cpp.html" title="semio_humanoid_ros\l/nodes/semio_humanoid\l_server_node.cpp" alt="" coords="760,109,923,165"/>
+<area shape="rect" id="node7" href="$humanoid__source__adapter_8cpp.html" title="semio_humanoid_ros\l/src/humanoid_source\l_adapter.cpp" alt="" coords="947,109,1098,165"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="semio::ros::HumanoidSourceROS::fromROSMsg" name="semio::ros::HumanoidSourceROS::fromROSMsg">
+<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSourceROS.html#ab9d36bf211a456f9d61739c0ad7f14c5" title="Create a semio::Humanoid from a humanoid message. " alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node3" href="$classsemio_1_1ros_1_1HumanoidSourceROS.html#a83fb8d39e5005f57128081cc774390de" title="Convert _last_humanoids_msg to a semio::HumanoidArray. " alt="" coords="244,71,435,112"/>
+</map>

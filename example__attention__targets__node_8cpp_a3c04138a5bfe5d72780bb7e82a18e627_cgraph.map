@@ -1,0 +1,5 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkAdapter.html#a7d8570b194859722b8685bca5dc95f90" title="Create a semio::HumanoidSink. " alt="" coords="115,5,293,47"/>
+<area shape="rect" id="node3" href="$classsemio_1_1ros_1_1HumanoidSourceAdapter.html#ab5e3c73791284d9d685e62303b1108e0" title="Create a semio::HumanoidSource. " alt="" coords="107,71,301,112"/>
+<area shape="rect" id="node4" href="$classExampleAttentionTargetsNode.html#a8b6ac97c507387b4cc846fb7f125774f" title="Main loop. " alt="" coords="104,136,304,177"/>
+</map>
