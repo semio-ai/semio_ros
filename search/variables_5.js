@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['position',['position',['../example__deictic__targets__node_8cpp.html#a80462ade5e4e1e3c320ecac1bf865bde',1,'TestPose']]]
+  ['head_5frotation',['head_rotation',['https://semio-ai.github.io/libsemio/structTestPose.html#a3b4d78cbbf3e6a18f646023e2df6f6c2',1,'TestPose']]],
+  ['humanoid_5fsource_5f',['humanoid_source_',['https://semio-ai.github.io/libsemio/classAttentionRecognizerSample.html#a3f98c53427cf5a722271f7ff9f2da25c',1,'AttentionRecognizerSample::humanoid_source_()'],['https://semio-ai.github.io/libsemio/classAttentionRecognizerSample.html#a41c996faa073effecf978e6d7e16ac83',1,'AttentionRecognizerSample::humanoid_source_()'],['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#a0f9f8320232086714e929f8e4dc179ff',1,'DeicticRecognizerSample::humanoid_source_()'],['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#afc1f30809e649d39032eb434271c01a8',1,'DeicticRecognizerSample::humanoid_source_()'],['https://semio-ai.github.io/libsemio/classHumanoidSourceNiTESample.html#af3bc0fe513f482b2b194dd7d7ed557e4',1,'HumanoidSourceNiTESample::humanoid_source_()']]],
+  ['humanoid_5fsource_5fptr_5f',['humanoid_source_ptr_',['../classSemioAttentionNode.html#ad5375cad788dfceb683b2cd237304621',1,'SemioAttentionNode::humanoid_source_ptr_()'],['../classSemioDeixisNode.html#a069bddd814f3f3af56dce01712f9fdf3',1,'SemioDeixisNode::humanoid_source_ptr_()']]]
 ];

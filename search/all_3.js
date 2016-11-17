@@ -1,7 +1,28 @@
 var searchData=
 [
-  ['example_5fattention_5ftargets_5fnode_2ecpp',['example_attention_targets_node.cpp',['../example__attention__targets__node_8cpp.html',1,'']]],
-  ['example_5fdeictic_5ftargets_5fnode_2ecpp',['example_deictic_targets_node.cpp',['../example__deictic__targets__node_8cpp.html',1,'']]],
-  ['exampleattentiontargetsnode',['ExampleAttentionTargetsNode',['../classExampleAttentionTargetsNode.html',1,'ExampleAttentionTargetsNode'],['../classExampleAttentionTargetsNode.html#a5c8aabdf33687e5a1b0df1cc8aff3bfc',1,'ExampleAttentionTargetsNode::ExampleAttentionTargetsNode()']]],
-  ['exampledeictictargetsnode',['ExampleDeicticTargetsNode',['../classExampleDeicticTargetsNode.html',1,'ExampleDeicticTargetsNode'],['../classExampleDeicticTargetsNode.html#a65a7d3716b37ebbbbbe165352669bbaa',1,'ExampleDeicticTargetsNode::ExampleDeicticTargetsNode()']]]
+  ['calculateresult',['calculateResult',['https://semio-ai.github.io/libsemio/classsemio_1_1AttentionRecognizer.html#a5004e9301e1270966ad54b57a797e2d1',1,'semio::AttentionRecognizer::calculateResult()'],['https://semio-ai.github.io/libsemio/classsemio_1_1DeicticRecognizer.html#ac5352ff2c4773f0c7b335a81dbe08b6a',1,'semio::DeicticRecognizer::calculateResult()']]],
+  ['calibrating',['CALIBRATING',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980ab8d83a486269e0cad28b070df47fce52',1,'semio::Humanoid']]],
+  ['calibration_5ferror_5fhands',['CALIBRATION_ERROR_HANDS',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980aeb83360446f130facc1c2175e0cc668d',1,'semio::Humanoid']]],
+  ['calibration_5ferror_5fhead',['CALIBRATION_ERROR_HEAD',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980a6b43c5e8e6532e7b4560e03465db3c7d',1,'semio::Humanoid']]],
+  ['calibration_5ferror_5flegs',['CALIBRATION_ERROR_LEGS',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980a402593f8f50f00dd2ab550bfc2ed6d32',1,'semio::Humanoid']]],
+  ['calibration_5ferror_5fnot_5fin_5fpose',['CALIBRATION_ERROR_NOT_IN_POSE',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980aa1078d643cc7f3a9c2ad8b3133d41b0b',1,'semio::Humanoid']]],
+  ['calibration_5ferror_5ftorso',['CALIBRATION_ERROR_TORSO',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#adc4d7baca6455b3dd5e7420da2f59980a8415ebd2a6b255fd82da9a6d9f4284c0',1,'semio::Humanoid']]],
+  ['cameracaptureopenni2adapter',['CameraCaptureOpenNI2Adapter',['https://semio-ai.github.io/libsemio/classsemio_1_1util_1_1CameraCaptureOpenNI2Adapter.html',1,'semio::util']]],
+  ['cameracaptureopenni2adapter',['CameraCaptureOpenNI2Adapter',['https://semio-ai.github.io/libsemio/classsemio_1_1util_1_1CameraCaptureOpenNI2Adapter.html#abecd7c0c0b1ba6f67af165755313242c',1,'semio::util::CameraCaptureOpenNI2Adapter']]],
+  ['cameraparameters',['CameraParameters',['https://semio-ai.github.io/libsemio/structsemio_1_1HumanoidSourceOpenFace_1_1CameraParameters.html',1,'semio::HumanoidSourceOpenFace']]],
+  ['cameraparameters',['CameraParameters',['https://semio-ai.github.io/libsemio/structsemio_1_1HumanoidSourceOpenFace_1_1CameraParameters.html#ae331be3d1cac309c09cf660c0696dd2f',1,'semio::HumanoidSourceOpenFace::CameraParameters']]],
+  ['cdf',['CDF',['https://semio-ai.github.io/libsemio/classsemio_1_1math_1_1CDF.html#a5f5521ec948db104a3a0f233d982fd5e',1,'semio::math::CDF::CDF(double const &amp;mean, double const &amp;variance)'],['https://semio-ai.github.io/libsemio/classsemio_1_1math_1_1CDF.html#a990c0924c0ccda87c2a6ee2f5bb532d1',1,'semio::math::CDF::CDF(PDFParameters const &amp;parameters)']]],
+  ['cdf',['CDF',['https://semio-ai.github.io/libsemio/classsemio_1_1math_1_1CDF.html',1,'semio::math']]],
+  ['chdir',['chdir',['https://semio-ai.github.io/libsemio/classsemio_1_1WorkingDirTracker.html#adc0c5e35eeaa4a28841580b7e6344d6c',1,'semio::WorkingDirTracker']]],
+  ['color',['COLOR',['https://semio-ai.github.io/libsemio/namespacesemio_1_1util.html#af68b3b47e1576db0b0bc0da9ded49bbaa04bd834032febb3fda8c6936ee140949',1,'semio::util']]],
+  ['confidence_5fhigh',['CONFIDENCE_HIGH',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#a285a558a7d99a1e0f1bfaadb219fafc8',1,'semio::HumanoidJoint']]],
+  ['confidence_5flow',['CONFIDENCE_LOW',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#aceb6067a78d92c4b5d1aeb9a64cf4b76',1,'semio::HumanoidJoint']]],
+  ['confidence_5fmax',['CONFIDENCE_MAX',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#a1b2a4f3b11a2f671d389bac2f9b396c2',1,'semio::HumanoidJoint']]],
+  ['confidence_5fmedium',['CONFIDENCE_MEDIUM',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#a7d4292937cb4fafd52303daa91aadeae',1,'semio::HumanoidJoint']]],
+  ['confidence_5fnone',['CONFIDENCE_NONE',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#a004a4de215a87694ea8ea5dfe7a44c02',1,'semio::HumanoidJoint']]],
+  ['constptr',['ConstPtr',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidSink.html#a04f3e6b13f1972ac600d451a2f212627',1,'semio::HumanoidSink::ConstPtr()'],['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidSource.html#ad510f91b13896bcfb22fb40342fe6621',1,'semio::HumanoidSource::ConstPtr()']]],
+  ['copy',['copy',['https://semio-ai.github.io/libsemio/classsemio_1_1TopNItem.html#a8ba0c0316c904570ee51bfe414895ab1',1,'semio::TopNItem']]],
+  ['cv',['cv',['https://semio-ai.github.io/libsemio/namespacecv.html',1,'']]],
+  ['cvcapture',['CvCapture',['https://semio-ai.github.io/libsemio/structCvCapture.html',1,'']]],
+  ['cvcapture_5fopenni2',['CvCapture_OpenNI2',['https://semio-ai.github.io/libsemio/classCvCapture__OpenNI2.html',1,'CvCapture_OpenNI2'],['https://semio-ai.github.io/libsemio/classCvCapture__OpenNI2.html#ae70c15015cff758c8707bddcca4d4201',1,'CvCapture_OpenNI2::CvCapture_OpenNI2()']]]
 ];

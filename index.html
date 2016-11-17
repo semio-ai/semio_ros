@@ -104,17 +104,17 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#main-overview">Overview</a><ul><li class="level2"><a href="#public-packages">Public Packages</a></li>
+<ul><ul><li class="level2"><a href="#public-packages">Public Packages</a></li>
 <li class="level2"><a href="#proprietary-packages">Proprietary Packages</a></li>
 <li class="level2"><a href="#ros-message-api">ROS Message API</a></li>
 <li class="level2"><a href="#utility-nodes">Utility Nodes</a></li>
-<li class="level2"><a href="#utility-classes">Utility Classes</a></li>
 <li class="level2"><a href="#ros-conversion-classes">ROS Conversion Classes</a></li>
+<li class="level2"><a href="#example-nodes">Example Nodes</a></li>
+</ul>
+<li class="level1"><a href="#main-overview">Overview</a><ul><li class="level2"><a href="#utility-classes">Utility Classes</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#main-examples">Examples</a><ul><li class="level2"><a href="#example-nodes">Example Nodes</a></li>
-</ul>
-</li>
+<li class="level1"><a href="#main-examples">Examples</a></li>
 <li class="level1"><a href="#installation">Installation</a><ul><li class="level2"><a href="#installation-from-binary">Binaries</a></li>
 <li class="level2"><a href="#installation-from-source">Source Code</a></li>
 </ul>
@@ -138,7 +138,7 @@ Public Packages</h2>
 <ul>
 <li><a class="el" href="semio_attention_ros.html">semio_attention_ros</a> - Visual attention recognition</li>
 <li><a class="el" href="semio_deixis_ros.html">semio_deixis_ros</a> - Pointing behavior recognition</li>
-<li><a class="el" href="semio_humanoid_ros.html">semio_humanoid_ros</a> - semio::Humanoid &lt;-&gt; ROS conversion and utilities</li>
+<li><a class="el" href="semio_humanoid_ros.html">semio_humanoid_ros</a> - <a class="elRef" doxygen="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag:https://semio-ai.github.io/libsemio/" href="https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html">semio::Humanoid</a> &lt;-&gt; ROS conversion and utilities</li>
 <li><a class="el" href="semio_msgs_ros.html">semio_msgs_ros</a> - ROS message definitions</li>
 </ul>
 <h2><a class="anchor" id="proprietary-packages"></a>
@@ -154,8 +154,8 @@ ROS Message API</h2>
 <h2><a class="anchor" id="utility-nodes"></a>
 Utility Nodes</h2>
 <ul>
-<li><a class="el" href="semio_attention_ros.html#attention-semio_attention_node">semio_attention_node</a> - Simple ROS wrapper around semio::AttentionRecognizer</li>
-<li><a class="el" href="semio_deixis_ros.html#deixis-semio_deixis_node">semio_deixis_node</a> - Simple ROS wrapper around semio::DeicticRecognizer</li>
+<li><a class="el" href="semio_attention_ros.html#attention-semio_attention_node">semio_attention_node</a> - Simple ROS wrapper around <a class="elRef" doxygen="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag:https://semio-ai.github.io/libsemio/" href="https://semio-ai.github.io/libsemio/classsemio_1_1AttentionRecognizer.html">semio::AttentionRecognizer</a></li>
+<li><a class="el" href="semio_deixis_ros.html#deixis-semio_deixis_node">semio_deixis_node</a> - Simple ROS wrapper around <a class="elRef" doxygen="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag:https://semio-ai.github.io/libsemio/" href="https://semio-ai.github.io/libsemio/classsemio_1_1DeicticRecognizer.html">semio::DeicticRecognizer</a></li>
 <li><a class="el" href="semio_humanoid_ros.html#humanoid-semio_humanoid_server_node">semio_humanoid_server_node</a> - Serve humanoids using source/sink model; configurable at runtime via <a class="el" href="classsemio_1_1ros_1_1HumanoidSourceAdapter.html" title="Utility class to simplify the creation of semio::HumanoidSource instances. ">semio::ros::HumanoidSourceAdapter</a> / <a class="el" href="classsemio_1_1ros_1_1HumanoidSinkAdapter.html" title="Utility class to simplify the creation of semio::HumanoidSink instances. ">semio::ros::HumanoidSinkAdapter</a></li>
 <li><a class="el" href="semio_visualization_ros.html#visualization-semio_visualization_server_node">semio_visualization_server_node</a> - Visualize humanoids and recognition results via visualization_msgs/MarkerArray.msg</li>
 </ul>
@@ -168,8 +168,8 @@ Utility Classes</h2>
 <h2><a class="anchor" id="ros-conversion-classes"></a>
 ROS Conversion Classes</h2>
 <ul>
-<li><a class="el" href="classsemio_1_1ros_1_1HumanoidSourceROS.html">semio::ros::HumanoidSourceROS</a> - Extension of semio::HumanoidSource for ROS</li>
-<li><a class="el" href="classsemio_1_1ros_1_1HumanoidSinkROS.html">semio::ros::HumanoidSinkROS</a> - Extension of semio::HumanoidSink for ROS</li>
+<li><a class="el" href="classsemio_1_1ros_1_1HumanoidSourceROS.html">semio::ros::HumanoidSourceROS</a> - Extension of <a class="elRef" doxygen="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag:https://semio-ai.github.io/libsemio/" href="https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidSource.html">semio::HumanoidSource</a> for ROS</li>
+<li><a class="el" href="classsemio_1_1ros_1_1HumanoidSinkROS.html">semio::ros::HumanoidSinkROS</a> - Extension of <a class="elRef" doxygen="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag:https://semio-ai.github.io/libsemio/" href="https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidSink.html">semio::HumanoidSink</a> for ROS</li>
 </ul>
 <h1><a class="anchor" id="main-examples"></a>
 Examples</h1>
@@ -212,7 +212,7 @@ Source Code</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 16 2016 23:12:07 for semio_ros by
+    <li class="footer">Generated on Sun Nov 20 2016 00:44:58 for semio_ros by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

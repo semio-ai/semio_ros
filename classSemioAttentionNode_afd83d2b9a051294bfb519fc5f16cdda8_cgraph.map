@@ -1,0 +1,5 @@
+<map id="SemioAttentionNode::spin" name="SemioAttentionNode::spin">
+<area shape="rect" id="node2" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1AttentionRecognizer.html#a5004e9301e1270966ad54b57a797e2d1" title="semio::AttentionRecognizer\l::calculateResult" alt="" coords="196,5,379,47"/>
+<area shape="rect" id="node3" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1AttentionRecognizer.html#ab3985a6989546cfe636be16bea921dc2" title="semio::AttentionRecognizer\l::getHumanoids" alt="" coords="196,71,379,112"/>
+<area shape="rect" id="node4" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1TopNList.html#aca9788649257372b4e0f277858e02a9e" title="semio::TopNList::values" alt="" coords="205,137,369,163"/>
+</map>

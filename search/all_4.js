@@ -1,4 +1,28 @@
 var searchData=
 [
-  ['fromrosmsg',['fromROSMsg',['../classsemio_1_1ros_1_1HumanoidSourceROS.html#a7f09147679cde4991a3e108278ff110a',1,'semio::ros::HumanoidSourceROS::fromROSMsg(_HumanoidJointMsg const &amp;msg)'],['../classsemio_1_1ros_1_1HumanoidSourceROS.html#ab9d36bf211a456f9d61739c0ad7f14c5',1,'semio::ros::HumanoidSourceROS::fromROSMsg(_HumanoidMsg const &amp;msg)'],['../classsemio_1_1ros_1_1HumanoidSourceROS.html#ac4a4c055d84b9979732c11ea7eace355',1,'semio::ros::HumanoidSourceROS::fromROSMsg(_HumanoidsMsg const &amp;msg)']]]
+  ['data',['data',['https://semio-ai.github.io/libsemio/classsemio_1_1TopNList.html#a1f067d4ac52c31e107d8861fc3181d49',1,'semio::TopNList::data()'],['https://semio-ai.github.io/libsemio/classsemio_1_1TopNList.html#a6e0154d2036335e43eeb2765e422fcbd',1,'semio::TopNList::data() const ']]],
+  ['decreasing',['DECREASING',['https://semio-ai.github.io/libsemio/namespacesemio.html#ab428023b9b2dedc30bd8d09f5ac40935aeb1a1f88661e1da8ddf15d8c9818daad',1,'semio']]],
+  ['default',['DEFAULT',['https://semio-ai.github.io/libsemio/namespacesemio.html#ab428023b9b2dedc30bd8d09f5ac40935a5b39c8b553c821e7cddc6da64b5bd2ee',1,'semio']]],
+  ['deictic_5frecognizer_2ecpp',['deictic_recognizer.cpp',['https://semio-ai.github.io/libsemio/samples_2deictic__recognizer_8cpp.html',1,'(Global Namespace)'],['https://semio-ai.github.io/libsemio/semio_2recognition_2deictic__recognizer_8cpp.html',1,'(Global Namespace)']]],
+  ['deictic_5frecognizer_2eh',['deictic_recognizer.h',['https://semio-ai.github.io/libsemio/deictic__recognizer_8h.html',1,'']]],
+  ['deictic_5frecognizer_5f',['deictic_recognizer_',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#a86c26e412b0ef633b21e5d1f67de9be7',1,'DeicticRecognizerSample::deictic_recognizer_()'],['../classSemioDeixisNode.html#aded6b464f844fb5e1b7effe26ca0f904',1,'SemioDeixisNode::deictic_recognizer_()']]],
+  ['deictic_5frecognizer_5fvirtual_2ecpp',['deictic_recognizer_virtual.cpp',['https://semio-ai.github.io/libsemio/deictic__recognizer__virtual_8cpp.html',1,'']]],
+  ['deictic_5ftargets_5f',['deictic_targets_',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#a1152836d64d32d2cca0f158c84537567',1,'DeicticRecognizerSample']]],
+  ['deicticrecognitionhumanoiditem_2emsg',['DeicticRecognitionHumanoidItem.msg',['../DeicticRecognitionHumanoidItem_8msg.html',1,'']]],
+  ['deicticrecognitionresult',['DeicticRecognitionResult',['https://semio-ai.github.io/libsemio/namespacesemio.html#aeb46c07ab06feddcf366bc549ba3d6ec',1,'semio']]],
+  ['deicticrecognitionresult_2emsg',['DeicticRecognitionResult.msg',['../DeicticRecognitionResult_8msg.html',1,'']]],
+  ['deicticrecognitionsourceitem_2emsg',['DeicticRecognitionSourceItem.msg',['../DeicticRecognitionSourceItem_8msg.html',1,'']]],
+  ['deicticrecognitiontopnitem_2emsg',['DeicticRecognitionTopNItem.msg',['../DeicticRecognitionTopNItem_8msg.html',1,'']]],
+  ['deicticrecognizer',['DeicticRecognizer',['https://semio-ai.github.io/libsemio/classsemio_1_1DeicticRecognizer.html',1,'semio']]],
+  ['deicticrecognizer',['DeicticRecognizer',['https://semio-ai.github.io/libsemio/classsemio_1_1DeicticRecognizer.html#aac2c0e1e0e1782ec6863452e5d23b00d',1,'semio::DeicticRecognizer']]],
+  ['deicticrecognizersample',['DeicticRecognizerSample',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html',1,'DeicticRecognizerSample'],['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#ac93a64495c69f756f7d403d0db0db9c0',1,'DeicticRecognizerSample::DeicticRecognizerSample(bool &amp;running)'],['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#ac93a64495c69f756f7d403d0db0db9c0',1,'DeicticRecognizerSample::DeicticRecognizerSample(bool &amp;running)']]],
+  ['deictictarget',['DeicticTarget',['https://semio-ai.github.io/libsemio/namespacesemio.html#ae20d9abe539345f306d1158a73b2e8e0',1,'semio']]],
+  ['deictictarget_2emsg',['DeicticTarget.msg',['../DeicticTarget_8msg.html',1,'']]],
+  ['deictictargetarray',['DeicticTargetArray',['https://semio-ai.github.io/libsemio/namespacesemio.html#a0937584d2360d17882abbded2441e653',1,'semio']]],
+  ['deictictargets_2emsg',['DeicticTargets.msg',['../DeicticTargets_8msg.html',1,'']]],
+  ['deixishumanoidmap',['DeixisHumanoidMap',['https://semio-ai.github.io/libsemio/namespacesemio.html#a4dfdf889bbb357e630b4523c8fb6f6db',1,'semio']]],
+  ['deixissourcemap',['DeixisSourceMap',['https://semio-ai.github.io/libsemio/namespacesemio.html#aded91ccafcaeb78579c3896224a5d5c0',1,'semio']]],
+  ['deixistopnlist',['DeixisTopNList',['https://semio-ai.github.io/libsemio/namespacesemio.html#af73fc94dcf1c7ec6af2aa989afb278d1',1,'semio']]],
+  ['depth',['DEPTH',['https://semio-ai.github.io/libsemio/namespacesemio_1_1util.html#af68b3b47e1576db0b0bc0da9ded49bbaaaa1780b4fcce2d5d9af13dc25386d111',1,'semio::util']]],
+  ['device',['device',['https://semio-ai.github.io/libsemio/classCvCapture__OpenNI2.html#a15c0af41eee532ba89e5cdb7a1aeafd8',1,'CvCapture_OpenNI2']]]
 ];

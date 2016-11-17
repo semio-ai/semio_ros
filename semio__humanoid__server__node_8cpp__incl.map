@@ -1,5 +1,12 @@
 <map id="semio_humanoid_ros/nodes/semio_humanoid_server_node.cpp" name="semio_humanoid_ros/nodes/semio_humanoid_server_node.cpp">
 <area shape="rect" id="node3" href="$humanoid__source__adapter_8h.html" title="semio/ros/humanoid\l_source_adapter.h" alt="" coords="143,109,281,151"/>
-<area shape="rect" id="node7" href="$humanoid__sink__adapter_8h.html" title="semio/ros/humanoid\l_sink_adapter.h" alt="" coords="305,109,444,151"/>
-<area shape="rect" id="node9" href="$humanoid__sink__ros_8h.html" title="semio/ros/humanoid\l_sink_ros.h" alt="" coords="468,109,607,151"/>
+<area shape="rect" id="node12" href="$humanoid__sink__adapter_8h.html" title="semio/ros/humanoid\l_sink_adapter.h" alt="" coords="305,109,444,151"/>
+<area shape="rect" id="node14" href="$humanoid__sink__ros_8h.html" title="semio/ros/humanoid\l_sink_ros.h" alt="" coords="468,109,607,151"/>
+<area shape="rect" id="node4" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source_8h.html" title="semio/recognition/humanoid\l_source.h" alt="" coords="5,199,189,240"/>
+<area shape="rect" id="node5" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid_8h.html" title="semio/humanoid.h" alt="" coords="343,295,471,322"/>
+<area shape="rect" id="node9" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__impl_8h.html" title="semio/recognition/humanoid\l_source_impl.h" alt="" coords="5,288,189,329"/>
+<area shape="rect" id="node6" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$top__n__list_8h.html" title="semio/recognition/top\l_n_list.h" alt="" coords="244,377,391,419"/>
+<area shape="rect" id="node8" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__impl_8h.html" title="semio/humanoid_impl.h" alt="" coords="415,385,574,411"/>
+<area shape="rect" id="node7" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$top__n__list__impl_8h.html" title="semio/recognition/top\l_n_list_impl.h" alt="" coords="244,467,391,508"/>
+<area shape="rect" id="node13" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__sink_8h.html" title="semio/recognition/humanoid\l_sink.h" alt="" coords="445,199,629,240"/>
 </map>

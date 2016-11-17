@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['targets_5fsub_5f',['targets_sub_',['../classSemioAttentionNode.html#a4c79a6d700bfb527f83313e172c74e4b',1,'SemioAttentionNode::targets_sub_()'],['../classSemioDeixisNode.html#a2233be6b56310f7797f0470677de0735',1,'SemioDeixisNode::targets_sub_()']]],
-  ['torso_5frotation',['torso_rotation',['../example__deictic__targets__node_8cpp.html#ac692dfbb043fb3607683f462251dc799',1,'TestPose']]]
+  ['joint_5ftype_5f',['joint_type_',['https://semio-ai.github.io/libsemio/classsemio_1_1HumanoidJoint.html#a2378249fcbfb44b1b8d2143d7d0edd25',1,'semio::HumanoidJoint']]],
+  ['joints_5f',['joints_',['https://semio-ai.github.io/libsemio/classsemio_1_1Humanoid.html#a5d6f9a071140a1f6d087765c3e693dae',1,'semio::Humanoid']]]
 ];

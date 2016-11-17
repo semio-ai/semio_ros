@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classsemio_1_1ros_1_1HumanoidSinkAdapter.html" title="Utility class to simplify the creation of semio::HumanoidSink instances. " alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node1" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidSink.html" title="semio::HumanoidSink" alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkROS.html" title="semio::HumanoidSink to sink humanoids to ROS " alt="" coords="204,5,409,32"/>
 </map>

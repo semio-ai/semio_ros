@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['head_5frotation',['head_rotation',['../example__deictic__targets__node_8cpp.html#a3b4d78cbbf3e6a18f646023e2df6f6c2',1,'TestPose']]],
-  ['humanoid_5fsource_5fptr_5f',['humanoid_source_ptr_',['../classSemioAttentionNode.html#ad5375cad788dfceb683b2cd237304621',1,'SemioAttentionNode::humanoid_source_ptr_()'],['../classSemioDeixisNode.html#a069bddd814f3f3af56dce01712f9fdf3',1,'SemioDeixisNode::humanoid_source_ptr_()']]]
+  ['deictic_5frecognizer_5f',['deictic_recognizer_',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#a86c26e412b0ef633b21e5d1f67de9be7',1,'DeicticRecognizerSample::deictic_recognizer_()'],['../classSemioDeixisNode.html#aded6b464f844fb5e1b7effe26ca0f904',1,'SemioDeixisNode::deictic_recognizer_()']]],
+  ['deictic_5ftargets_5f',['deictic_targets_',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#a1152836d64d32d2cca0f158c84537567',1,'DeicticRecognizerSample']]],
+  ['device',['device',['https://semio-ai.github.io/libsemio/classCvCapture__OpenNI2.html#a15c0af41eee532ba89e5cdb7a1aeafd8',1,'CvCapture_OpenNI2']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['testpose',['TestPose',['../example__deictic__targets__node_8cpp.html#structTestPose',1,'']]]
+  ['exampleattentiontargetsnode',['ExampleAttentionTargetsNode',['../classExampleAttentionTargetsNode.html',1,'']]],
+  ['exampledeictictargetsnode',['ExampleDeicticTargetsNode',['../classExampleDeicticTargetsNode.html',1,'']]]
 ];

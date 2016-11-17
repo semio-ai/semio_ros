@@ -1,4 +1,14 @@
 <map id="semio_humanoid_ros/src/humanoid_source_adapter.cpp" name="semio_humanoid_ros/src/humanoid_source_adapter.cpp">
-<area shape="rect" id="node2" href="$humanoid__source__adapter_8h.html" title="semio/ros/humanoid\l_source_adapter.h" alt="" coords="429,109,568,151"/>
-<area shape="rect" id="node6" href="$humanoid__source__ros_8h.html" title="semio/ros/humanoid\l_source_ros.h" alt="" coords="259,109,397,151"/>
+<area shape="rect" id="node2" href="$humanoid__source__adapter_8h.html" title="semio/ros/humanoid\l_source_adapter.h" alt="" coords="1000,109,1139,151"/>
+<area shape="rect" id="node11" href="$humanoid__source__ros_8h.html" title="semio/ros/humanoid\l_source_ros.h" alt="" coords="837,109,976,151"/>
+<area shape="rect" id="node13" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__virtual_8h.html" title="semio/recognition/humanoid\l_source_virtual.h" alt="" coords="421,109,605,151"/>
+<area shape="rect" id="node14" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__NiTE_8h.html" title="semio/recognition/humanoid\l_source_NiTE.h" alt="" coords="629,109,813,151"/>
+<area shape="rect" id="node15" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__openface_8h.html" title="semio/recognition/humanoid\l_source_openface.h" alt="" coords="5,109,189,151"/>
+<area shape="rect" id="node16" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__fullbody_8h.html" title="semio/recognition/humanoid\l_source_fullbody.h" alt="" coords="213,109,397,151"/>
+<area shape="rect" id="node3" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source_8h.html" title="semio/recognition/humanoid\l_source.h" alt="" coords="467,199,651,240"/>
+<area shape="rect" id="node4" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid_8h.html" title="semio/humanoid.h" alt="" coords="405,295,533,322"/>
+<area shape="rect" id="node8" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__source__impl_8h.html" title="semio/recognition/humanoid\l_source_impl.h" alt="" coords="557,288,741,329"/>
+<area shape="rect" id="node5" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$top__n__list_8h.html" title="semio/recognition/top\l_n_list.h" alt="" coords="308,377,455,419"/>
+<area shape="rect" id="node7" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$humanoid__impl_8h.html" title="semio/humanoid_impl.h" alt="" coords="479,385,638,411"/>
+<area shape="rect" id="node6" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$top__n__list__impl_8h.html" title="semio/recognition/top\l_n_list_impl.h" alt="" coords="308,467,455,508"/>
 </map>

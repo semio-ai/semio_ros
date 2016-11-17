@@ -1,2 +1,5 @@
 <map id="semio::ros::HumanoidSourceROS" name="semio::ros::HumanoidSourceROS">
+<area shape="rect" id="node2" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidSource.html" title="semio::HumanoidSource" alt="" coords="33,185,198,212"/>
+<area shape="rect" id="node3" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidMultiStageFilter.html" title="semio::HumanoidMultiStage\lFilter" alt="" coords="22,81,209,123"/>
+<area shape="rect" id="node4" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidFilter.html" title="semio::HumanoidFilter" alt="" coords="39,5,192,32"/>
 </map>

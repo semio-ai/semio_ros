@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['humanoidscb',['humanoidsCB',['../classsemio_1_1ros_1_1HumanoidSourceROS.html#a729c84e9cfaba597b1f7870f8ad6ad2c',1,'semio::ros::HumanoidSourceROS']]],
-  ['humanoidsinkadapter',['HumanoidSinkAdapter',['../classsemio_1_1ros_1_1HumanoidSinkAdapter.html#afa8cd8af4502918846846f3c13687f46',1,'semio::ros::HumanoidSinkAdapter']]],
-  ['humanoidsinkros',['HumanoidSinkROS',['../classsemio_1_1ros_1_1HumanoidSinkROS.html#a7c0eab828c198e7cad1f1ba372247b18',1,'semio::ros::HumanoidSinkROS']]],
-  ['humanoidsourceadapter',['HumanoidSourceAdapter',['../classsemio_1_1ros_1_1HumanoidSourceAdapter.html#a54ce32e1da8fcf95e5daf48e2892e7be',1,'semio::ros::HumanoidSourceAdapter']]],
-  ['humanoidsourceros',['HumanoidSourceROS',['../classsemio_1_1ros_1_1HumanoidSourceROS.html#a73380c45aed6865e1539e5211984b4ee',1,'semio::ros::HumanoidSourceROS']]]
+  ['data',['data',['https://semio-ai.github.io/libsemio/classsemio_1_1TopNList.html#a1f067d4ac52c31e107d8861fc3181d49',1,'semio::TopNList::data()'],['https://semio-ai.github.io/libsemio/classsemio_1_1TopNList.html#a6e0154d2036335e43eeb2765e422fcbd',1,'semio::TopNList::data() const ']]],
+  ['deicticrecognizer',['DeicticRecognizer',['https://semio-ai.github.io/libsemio/classsemio_1_1DeicticRecognizer.html#aac2c0e1e0e1782ec6863452e5d23b00d',1,'semio::DeicticRecognizer']]],
+  ['deicticrecognizersample',['DeicticRecognizerSample',['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#ac93a64495c69f756f7d403d0db0db9c0',1,'DeicticRecognizerSample::DeicticRecognizerSample(bool &amp;running)'],['https://semio-ai.github.io/libsemio/classDeicticRecognizerSample.html#ac93a64495c69f756f7d403d0db0db9c0',1,'DeicticRecognizerSample::DeicticRecognizerSample(bool &amp;running)']]]
 ];

@@ -1,5 +1,0 @@
-<map id="semio::ros::HumanoidSinkROS::toROSMsgPtr" name="semio::ros::HumanoidSinkROS::toROSMsgPtr">
-<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkROS_a24436337d75b5eb21a873b6095256de5.html#a24436337d75b5eb21a873b6095256de5" title="Convert humanoids to a ROS message and publish it to ROS. " alt="" coords="229,5,405,47"/>
-<area shape="rect" id="node3" href="$classsemio_1_1ros_1_1HumanoidSinkROS_a4cf7374f94c8a6b33a242291626b2d4d.html#a4cf7374f94c8a6b33a242291626b2d4d" title="Create a _HumanoidJointMsg from a semio::HumanoidJoint. " alt="" coords="229,71,405,112"/>
-<area shape="rect" id="node4" href="$classsemio_1_1ros_1_1HumanoidSinkROS_a05dd99c094c6f55a5fe9edddb8efa73c.html#a05dd99c094c6f55a5fe9edddb8efa73c" title="Create a _HumanoidMsg::Ptr from a semio::Humanoid. " alt="" coords="453,71,629,112"/>
-</map>

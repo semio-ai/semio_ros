@@ -5,6 +5,5 @@ var annotated_dup =
     [ "ExampleDeicticTargetsNode", "classExampleDeicticTargetsNode.html", "classExampleDeicticTargetsNode" ],
     [ "SemioAttentionNode", "classSemioAttentionNode.html", "classSemioAttentionNode" ],
     [ "SemioDeixisNode", "classSemioDeixisNode.html", "classSemioDeixisNode" ],
-    [ "SemioHumanoidServerNode", "classSemioHumanoidServerNode.html", "classSemioHumanoidServerNode" ],
-    [ "TestPose", "example__deictic__targets__node_8cpp.html#structTestPose", "example__deictic__targets__node_8cpp_structTestPose" ]
+    [ "SemioHumanoidServerNode", "classSemioHumanoidServerNode.html", "classSemioHumanoidServerNode" ]
 ];

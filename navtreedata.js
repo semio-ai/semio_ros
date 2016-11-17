@@ -6,12 +6,11 @@ var NAVTREE =
       [ "Proprietary Packages", "index.html#proprietary-packages", null ],
       [ "ROS Message API", "index.html#ros-message-api", null ],
       [ "Utility Nodes", "index.html#utility-nodes", null ],
-      [ "Utility Classes", "index.html#utility-classes", null ],
-      [ "ROS Conversion Classes", "index.html#ros-conversion-classes", null ]
+      [ "ROS Conversion Classes", "index.html#ros-conversion-classes", null ],
+      [ "Example Nodes", "index.html#example-nodes", null ],
+      [ "Utility Classes", "index.html#utility-classes", null ]
     ] ],
-    [ "Examples", "index.html#main-examples", [
-      [ "Example Nodes", "index.html#example-nodes", null ]
-    ] ],
+    [ "Examples", "index.html#main-examples", null ],
     [ "Installation", "index.html#installation", [
       [ "Binaries", "index.html#installation-from-binary", null ],
       [ "Source Code", "index.html#installation-from-source", null ]
@@ -79,7 +78,12 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
@@ -105,7 +109,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AttentionRecognitionHumanoidItem_8msg.html",
-"semio_msgs_ros.html#deixis-recognition"
+"semio_visualization_ros.html#visualization-nodes"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

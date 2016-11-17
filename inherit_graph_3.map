@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkROS.html" title="semio::HumanoidSink to sink humanoids to ROS " alt="" coords="160,5,365,32"/>
+<area shape="rect" id="node1" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidSource.html" title="semio::HumanoidSource" alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSourceROS.html" title="semio::HumanoidSource to source humanoids from ROS " alt="" coords="219,5,439,32"/>
 </map>

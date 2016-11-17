@@ -1,5 +1,7 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkAdapter.html#a7d8570b194859722b8685bca5dc95f90" title="Create a semio::HumanoidSink. " alt="" coords="115,5,293,47"/>
-<area shape="rect" id="node3" href="$classsemio_1_1ros_1_1HumanoidSourceAdapter.html#ab5e3c73791284d9d685e62303b1108e0" title="Create a semio::HumanoidSource. " alt="" coords="107,71,301,112"/>
-<area shape="rect" id="node4" href="$classExampleAttentionTargetsNode.html#a8b6ac97c507387b4cc846fb7f125774f" title="Main loop. " alt="" coords="104,136,304,177"/>
+<area shape="rect" id="node2" href="$classsemio_1_1ros_1_1HumanoidSinkAdapter.html#a7d8570b194859722b8685bca5dc95f90" title="Create a semio::HumanoidSink. " alt="" coords="115,71,293,112"/>
+<area shape="rect" id="node5" href="$classsemio_1_1ros_1_1HumanoidSourceAdapter.html#ab5e3c73791284d9d685e62303b1108e0" title="Create a semio::HumanoidSource. " alt="" coords="107,5,301,47"/>
+<area shape="rect" id="node6" href="$classExampleAttentionTargetsNode.html#a8b6ac97c507387b4cc846fb7f125774f" title="Main loop. " alt="" coords="104,136,304,177"/>
+<area shape="rect" id="node3" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidSmoothingFilter.html#a6f3a3e5415f0220fe882e1f7b50ad074" title="semio::HumanoidSmoothing\lFilter::getSmoothing" alt="" coords="353,5,539,47"/>
+<area shape="rect" id="node4" href="/home/ekaszubski/workspace/semio-ai/libsemio/libsemio.tag$classsemio_1_1HumanoidStateFilter.html#a3616b8bd0fb4f86c01e89c670bd91601" title="semio::HumanoidStateFilter\l::getStandardFilterHumanoid" alt="" coords="352,71,540,112"/>
 </map>
